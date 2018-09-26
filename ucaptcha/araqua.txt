@@ -1,0 +1,3 @@
+http://www.html5rocks.com/en/tutorials/canvas/imagefilters/
+
+http://www.redmonkey.org/php/additional-imagefilters/

@@ -1,0 +1,101 @@
+body{
+	font-size:12px;
+	font-family:verdana, sans;
+	background-color:#555;
+}
+
+h1{
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+}
+fieldset {
+	margin-top:10px;
+	border: 1px solid #ddd;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	background-color: #ddd;
+}
+legend{
+	background-color: #444;
+	color:white;
+	padding:5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	position:relative;
+	left:100px;
+}
+input#go{
+	margin-top: 20px;
+	border: 1px solid white;
+	padding:5px;
+	font-size:20px;
+	font-family:verdana, sans;
+	background-color: #444;
+	color:#ddd;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	cursor:pointer;
+}
+input#go:hover{
+	background-color:#ddd;
+	color:#444
+}
+hr{
+	border:1px dotted gray;
+}
+
+#noises, #noises_container{
+	float:left;
+}
+div.clearer{
+	clear:both;
+	line-height:0px;
+	height:0px;
+	font-size:0;
+}
+ul#noises_list{
+	list-style-type: none;
+	margin:0px;
+}
+ul#noises_list li{
+	cursor:move;
+	padding:1px;
+	border:1px solid gray;
+	background-color:white;
+	color:black;
+	margin-bottom:3px;
+	font-size:10px;
+	width:200px;
+	font-align:left;
+}
